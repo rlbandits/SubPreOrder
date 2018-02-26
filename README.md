@@ -7,7 +7,7 @@ Set up
 1. download file
 2. run xampp 
 3. set up "spo_db" database in phpMyAdmin and import files found in spo_db folder
-4. access the page with "localhost/SubPreOrder/views/index.php"
+4. access the page with "localhost/SubPreOrder/view/index.php"
 
 Ordering
 
