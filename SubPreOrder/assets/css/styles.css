@@ -1,0 +1,62 @@
+body{
+	font-family: Josefin Slab;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 20px;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+input{
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 2px solid;
+	border-left: 0px;
+}
+	#eMail, #uName{
+		width:220px;
+	}
+.container{
+	width: 100%;
+}
+	.info{
+    	padding: 25px;
+	}
+		.infoContent{
+			width:50%;
+			margin-bottom:15px;
+		}
+	.panelContainer{
+		height: 80%;
+	}
+		.panels ul li{
+			cursor: pointer;
+			line-height: 30px;
+		}
+		.panels p{
+			    font-size: 15px;
+			font-style: italic;
+    		color: #B22222;
+		}
+"#myModal .modal-footer2{
+	display: none;
+}
+#orderCode{
+	width: 355px;
+}
+.loading {
+	display: none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('../images/pacmanLoader.gif') 
+                50% 50% 
+                no-repeat;
+}
